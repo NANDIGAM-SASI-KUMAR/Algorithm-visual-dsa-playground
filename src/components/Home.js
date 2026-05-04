@@ -5,7 +5,7 @@ import convexhull from "../assets/convex_hull.png";
 import sorting from "../assets/sorting.png"
 import "particles.js";
 import particleJSON from "../assets/particles.json";
-import pathfinding_front from "../assets/pathfinding_front.svg";
+//import pathfinding_front from "../assets/pathfinding_front.svg";
 import {ReactComponent as Github} from "../assets/github.svg";
 import {ReactComponent as LinkedIn} from "../assets/linkedin.svg";
 import {ReactComponent as LogoIcon} from "../assets/analytics.svg";
@@ -48,12 +48,12 @@ class Home extends Component{
               <div class="box title">
                     <div className="container-fluid solid">
                         <ul className="links">
-                            <li onClick={()=>window.open("https://github.com/arnabuchiha/Algorithm-Visualizer","_blank")}>
+                            <li onClick={()=>window.open("https://github.com/NANDIGAM-SASI-KUMAR","_blank")}>
                                 <i>
                                     <Github/>
                                 </i>
                             </li>
-                            <li onClick={()=>window.open("https://www.linkedin.com/in/funky-poseidon/","_blank")}>
+                            <li onClick={()=>window.open("https://www.linkedin.com/in/nandigam-sasi-kumar-3978b4314/","_blank")}>
                                 <i>
                                     <LinkedIn/>
                                 </i>
