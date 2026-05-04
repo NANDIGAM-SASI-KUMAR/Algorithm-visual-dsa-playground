@@ -66,8 +66,7 @@ class Pathfinding extends Component{
                     col:j,
                     isVisited:false,
                     isShortestPath:false,
-                    isWall:false,
-                    isShortestPath:false
+                    isWall:false
                 });
                 try{
                 document.getElementById(`node-${i}-${j}`).className="node_";
